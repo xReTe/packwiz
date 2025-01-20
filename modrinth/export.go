@@ -140,7 +140,7 @@ var exportCmd = &cobra.Command{
 					clientEnv = envInstalled
 					serverEnv = "unsupported"
 				} else if dl.Mod.Side == core.ServerSide {
-					clientEnv = "unsupported"
+					clientEnv = envInstalled
 					serverEnv = envInstalled
 				}
 
